@@ -1,0 +1,190 @@
+##### Statement Coverage #####
+##### Test Suite: randoop0 #####
+all statements: 1108
+executedStatementsNum: 669
+statement coverage: 60.38
+coverage for each class: 
+ToolBox$LocaleTools:159 => 14.35%
+ToolBox$ArrayTools:68 => 6.14%
+ToolBox$CharSequenceTools:260 => 23.47%
+ToolBox$RegExTools:49 => 4.42%
+ToolBox$StringTools:573 => 51.71%
+
+
+##### Branch Coverage #####
+##### Test Suite: randoop0 #####
+all branches: 277
+branch coverage: 66.79
+coverage for each class: 
+ToolBox$LocaleTools:29 => 10.47%
+ToolBox$ArrayTools:10 => 3.61%
+ToolBox$CharSequenceTools:61 => 22.02%
+ToolBox$StringTools:162 => 58.48%
+ToolBox$RegExTools:15 => 5.42%
+
+
+##### Line Coverage #####
+##### Test Suite: randoop0 #####
+all lines: 2261
+executedLineNum: 1189
+line coverage: 52.59
+coverage for each class: 
+ToolBox$LocaleTools:331 => 14.64%
+ToolBox$ArrayTools:115 => 5.09%
+ToolBox$CharSequenceTools:527 => 23.31%
+ToolBox$RegExTools:73 => 3.23%
+ToolBox$StringTools:1215 => 53.74%
+
+
+##### Statement Coverage #####
+##### Test Suite: randoop1 #####
+all statements: 1109
+executedStatementsNum: 810
+statement coverage: 73.04
+coverage for each class: 
+ToolBox$LocaleTools:159 => 14.34%
+ToolBox$ArrayTools:68 => 6.13%
+ToolBox$CharSequenceTools:260 => 23.44%
+ToolBox$StringTools:573 => 51.67%
+ToolBox$RegExTools:49 => 4.42%
+
+
+##### Branch Coverage #####
+##### Test Suite: randoop1 #####
+all branches: 277
+branch coverage: 78.7
+coverage for each class: 
+ToolBox$LocaleTools:29 => 10.47%
+ToolBox$ArrayTools:10 => 3.61%
+ToolBox$CharSequenceTools:61 => 22.02%
+ToolBox$StringTools:162 => 58.48%
+ToolBox$RegExTools:15 => 5.42%
+
+
+##### Line Coverage #####
+##### Test Suite: randoop1 #####
+all lines: 2260
+executedLineNum: 1465
+line coverage: 64.82
+coverage for each class: 
+ToolBox$LocaleTools:331 => 14.65%
+ToolBox$ArrayTools:115 => 5.09%
+ToolBox$CharSequenceTools:527 => 23.32%
+ToolBox$RegExTools:73 => 3.23%
+ToolBox$StringTools:1215 => 53.76%
+
+
+##### Statement Coverage #####
+##### Test Suite: randoop2 #####
+all statements: 1109
+executedStatementsNum: 905
+statement coverage: 81.61
+coverage for each class: 
+ToolBox$LocaleTools:159 => 14.34%
+ToolBox$ArrayTools:68 => 6.13%
+ToolBox$CharSequenceTools:260 => 23.44%
+ToolBox$StringTools:573 => 51.67%
+ToolBox$RegExTools:49 => 4.42%
+
+
+##### Branch Coverage #####
+##### Test Suite: randoop2 #####
+all branches: 277
+branch coverage: 95.31
+coverage for each class: 
+ToolBox$LocaleTools:29 => 10.47%
+ToolBox$ArrayTools:10 => 3.61%
+ToolBox$CharSequenceTools:61 => 22.02%
+ToolBox$StringTools:162 => 58.48%
+ToolBox$RegExTools:15 => 5.42%
+
+
+##### Line Coverage #####
+##### Test Suite: randoop2 #####
+all lines: 2261
+executedLineNum: 1669
+line coverage: 73.82
+coverage for each class: 
+ToolBox$LocaleTools:331 => 14.64%
+ToolBox$ArrayTools:115 => 5.09%
+ToolBox$CharSequenceTools:527 => 23.31%
+ToolBox$StringTools:1215 => 53.74%
+ToolBox$RegExTools:73 => 3.23%
+
+
+##### Statement Coverage #####
+##### Test Suite: randoop3 #####
+all statements: 1109
+executedStatementsNum: 617
+statement coverage: 55.64
+coverage for each class: 
+ToolBox$LocaleTools:159 => 14.34%
+ToolBox$ArrayTools:68 => 6.13%
+ToolBox$CharSequenceTools:260 => 23.44%
+ToolBox$StringTools:573 => 51.67%
+ToolBox$RegExTools:49 => 4.42%
+
+
+##### Branch Coverage #####
+##### Test Suite: randoop3 #####
+all branches: 277
+branch coverage: 61.01
+coverage for each class: 
+ToolBox$LocaleTools:29 => 10.47%
+ToolBox$ArrayTools:10 => 3.61%
+ToolBox$CharSequenceTools:61 => 22.02%
+ToolBox$StringTools:162 => 58.48%
+ToolBox$RegExTools:15 => 5.42%
+
+
+##### Line Coverage #####
+##### Test Suite: randoop3 #####
+all lines: 2259
+executedLineNum: 1020
+line coverage: 45.15
+coverage for each class: 
+ToolBox$LocaleTools:331 => 14.65%
+ToolBox$ArrayTools:115 => 5.09%
+ToolBox$CharSequenceTools:527 => 23.33%
+ToolBox$StringTools:1215 => 53.78%
+ToolBox$RegExTools:73 => 3.23%
+
+
+##### Statement Coverage #####
+##### Test Suite: randoop4 #####
+all statements: 1109
+executedStatementsNum: 1053
+statement coverage: 94.95
+coverage for each class: 
+ToolBox$LocaleTools:159 => 14.34%
+ToolBox$ArrayTools:68 => 6.13%
+ToolBox$CharSequenceTools:260 => 23.44%
+ToolBox$StringTools:573 => 51.67%
+ToolBox$RegExTools:49 => 4.42%
+
+
+##### Branch Coverage #####
+##### Test Suite: randoop4 #####
+all branches: 277
+branch coverage: 108.3
+coverage for each class: 
+ToolBox$LocaleTools:29 => 10.47%
+ToolBox$ArrayTools:10 => 3.61%
+ToolBox$CharSequenceTools:61 => 22.02%
+ToolBox$StringTools:162 => 58.48%
+ToolBox$RegExTools:15 => 5.42%
+
+
+##### Line Coverage #####
+##### Test Suite: randoop4 #####
+all lines: 2261
+executedLineNum: 2010
+line coverage: 88.9
+coverage for each class: 
+ToolBox$LocaleTools:331 => 14.64%
+ToolBox$ArrayTools:115 => 5.09%
+ToolBox$CharSequenceTools:527 => 23.31%
+ToolBox$StringTools:1215 => 53.74%
+ToolBox$RegExTools:73 => 3.23%
+
+

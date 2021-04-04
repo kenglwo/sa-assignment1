@@ -1,0 +1,54 @@
+javac -g -d .\raw-classes\ .\src\main\java\comp5111\assignment\cut\ToolBox.java
+
+javac -d target\classes -g -classpath .;.\lib\*;src\main\java src\main\java\comp5111\assignment\cut\Counter.java 
+javac -d target\classes -g -classpath .;.\lib\*;src\main\java src\main\java\comp5111\assignment\cut\Instrumenter.java
+javac -d target\classes -g -classpath .;.\lib\*;src\main\java src\main\java\comp5111\assignment\cut\EntryPoint.java
+
+ javac -d target\classes -g -classpath .;.\lib\*;src\main\java src\main\java\comp5111\assignment\Assignment1.java
+
+
+############################# run the main method
+###### randoop0
+javac -d target\classes -g -classpath .;.\lib\*;.\src\main\java src\test\randoop0\comp5111\assignment\cut\RegressionTest.java src\test\randoop0\comp5111\assignment\cut\RegressionTest0.java
+# statement coverage
+java -classpath .;.\lib\evosuite-1.0.6.jar;.\lib\soot-4.2.1-jar-with-dependencies.jar;target\classes comp5111.assignment.Assignment1 0 randoop0 ToolBox ToolBox$ArrayTools ToolBox$CharSequenceTools ToolBox$CharTools ToolBox$LocaleTools ToolBox$RegExTools ToolBox$StringTools
+# branch coverage
+java -classpath .;.\lib\evosuite-1.0.6.jar;.\lib\soot-4.2.1-jar-with-dependencies.jar;target\classes comp5111.assignment.Assignment1 1 randoop0 ToolBox ToolBox$ArrayTools ToolBox$CharSequenceTools ToolBox$CharTools ToolBox$LocaleTools ToolBox$RegExTools ToolBox$StringTools
+# line coverage
+java -classpath .;.\lib\evosuite-1.0.6.jar;.\lib\soot-4.2.1-jar-with-dependencies.jar;target\classes comp5111.assignment.Assignment1 2 randoop0 ToolBox ToolBox$ArrayTools ToolBox$CharSequenceTools ToolBox$CharTools ToolBox$LocaleTools ToolBox$RegExTools ToolBox$StringTools
+
+##### randoop1
+javac -d target\classes -g -classpath .;.\lib\*;.\src\main\java src\test\randoop1\comp5111\assignment\cut\RegressionTest.java src\test\randoop1\comp5111\assignment\cut\RegressionTest0.java
+# statement coverage
+java -classpath .;.\lib\evosuite-1.0.6.jar;.\lib\soot-4.2.1-jar-with-dependencies.jar;target\classes comp5111.assignment.Assignment1 0 randoop1 ToolBox ToolBox$ArrayTools ToolBox$CharSequenceTools ToolBox$CharTools ToolBox$LocaleTools ToolBox$RegExTools ToolBox$StringTools
+# branch coverage
+java -classpath .;.\lib\evosuite-1.0.6.jar;.\lib\soot-4.2.1-jar-with-dependencies.jar;target\classes comp5111.assignment.Assignment1 1 randoop1 ToolBox ToolBox$ArrayTools ToolBox$CharSequenceTools ToolBox$CharTools ToolBox$LocaleTools ToolBox$RegExTools ToolBox$StringTools
+# line coverage
+java -classpath .;.\lib\evosuite-1.0.6.jar;.\lib\soot-4.2.1-jar-with-dependencies.jar;target\classes comp5111.assignment.Assignment1 2 randoop1 ToolBox ToolBox$ArrayTools ToolBox$CharSequenceTools ToolBox$CharTools ToolBox$LocaleTools ToolBox$RegExTools ToolBox$StringTools
+
+##### randoop2
+javac -d target\classes -g -classpath .;.\lib\*;.\src\main\java src\test\randoop2\comp5111\assignment\cut\RegressionTest.java src\test\randoop2\comp5111\assignment\cut\RegressionTest0.java
+# statement coverage
+java -classpath .;.\lib\evosuite-1.0.6.jar;.\lib\soot-4.2.1-jar-with-dependencies.jar;target\classes comp5111.assignment.Assignment1 0 randoop2 ToolBox ToolBox$ArrayTools ToolBox$CharSequenceTools ToolBox$CharTools ToolBox$LocaleTools ToolBox$RegExTools ToolBox$StringTools
+# branch coverage
+java -classpath .;.\lib\evosuite-1.0.6.jar;.\lib\soot-4.2.1-jar-with-dependencies.jar;target\classes comp5111.assignment.Assignment1 1 randoop2 ToolBox ToolBox$ArrayTools ToolBox$CharSequenceTools ToolBox$CharTools ToolBox$LocaleTools ToolBox$RegExTools ToolBox$StringTools
+# line coverage
+java -classpath .;.\lib\evosuite-1.0.6.jar;.\lib\soot-4.2.1-jar-with-dependencies.jar;target\classes comp5111.assignment.Assignment1 2 randoop2 ToolBox ToolBox$ArrayTools ToolBox$CharSequenceTools ToolBox$CharTools ToolBox$LocaleTools ToolBox$RegExTools ToolBox$StringTools
+
+##### randoop3
+javac -d target\classes -g -classpath .;.\lib\*;.\src\main\java src\test\randoop3\comp5111\assignment\cut\RegressionTest.java src\test\randoop3\comp5111\assignment\cut\RegressionTest0.java
+# statement coverage
+java -classpath .;.\lib\evosuite-1.0.6.jar;.\lib\soot-4.2.1-jar-with-dependencies.jar;target\classes comp5111.assignment.Assignment1 0 randoop3 ToolBox ToolBox$ArrayTools ToolBox$CharSequenceTools ToolBox$CharTools ToolBox$LocaleTools ToolBox$RegExTools ToolBox$StringTools
+# branch coverage
+java -classpath .;.\lib\evosuite-1.0.6.jar;.\lib\soot-4.2.1-jar-with-dependencies.jar;target\classes comp5111.assignment.Assignment1 1 randoop3 ToolBox ToolBox$ArrayTools ToolBox$CharSequenceTools ToolBox$CharTools ToolBox$LocaleTools ToolBox$RegExTools ToolBox$StringTools
+# line coverage
+java -classpath .;.\lib\evosuite-1.0.6.jar;.\lib\soot-4.2.1-jar-with-dependencies.jar;target\classes comp5111.assignment.Assignment1 2 randoop3 ToolBox ToolBox$ArrayTools ToolBox$CharSequenceTools ToolBox$CharTools ToolBox$LocaleTools ToolBox$RegExTools ToolBox$StringTools
+
+##### randoop4
+javac -d target\classes -g -classpath .;.\lib\*;.\src\main\java src\test\randoop4\comp5111\assignment\cut\RegressionTest.java src\test\randoop4\comp5111\assignment\cut\RegressionTest0.java
+# statement coverage
+java -classpath .;.\lib\evosuite-1.0.6.jar;.\lib\soot-4.2.1-jar-with-dependencies.jar;target\classes comp5111.assignment.Assignment1 0 randoop4 ToolBox ToolBox$ArrayTools ToolBox$CharSequenceTools ToolBox$CharTools ToolBox$LocaleTools ToolBox$RegExTools ToolBox$StringTools
+# branch coverage
+java -classpath .;.\lib\evosuite-1.0.6.jar;.\lib\soot-4.2.1-jar-with-dependencies.jar;target\classes comp5111.assignment.Assignment1 1 randoop4 ToolBox ToolBox$ArrayTools ToolBox$CharSequenceTools ToolBox$CharTools ToolBox$LocaleTools ToolBox$RegExTools ToolBox$StringTools
+# line coverage
+java -classpath .;.\lib\evosuite-1.0.6.jar;.\lib\soot-4.2.1-jar-with-dependencies.jar;target\classes comp5111.assignment.Assignment1 2 randoop4 ToolBox ToolBox$ArrayTools ToolBox$CharSequenceTools ToolBox$CharTools ToolBox$LocaleTools ToolBox$RegExTools ToolBox$StringTools
